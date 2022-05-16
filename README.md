@@ -40,7 +40,7 @@ See also
 - ✅ Code linting using [flake8](https://flake8.pycqa.org/en/latest/)
 - 📊 Code coverage reports using [codecov](https://about.codecov.io/sign-up/)
 - 🛳️ Automatic release to [PyPI](https://pypi.org) using [twine](https://twine.readthedocs.io/en/latest/) and github actions.
-- 🎯 Entry points to execute your program using `python -m <project_name>` or `$ project_name` with basic CLI argument parsing.
+- 🎯 Entry points to execute your program using `python -m <pyqt5_learn>` or `$ pyqt5_learn` with basic CLI argument parsing.
 - 🔄 Continuous integration using [Github Actions](.github/workflows/) with jobs to lint, test and release your project on Linux, Mac and Windows environments.
 
 > Curious about architectural decisions on this template? read [ABOUT_THIS_TEMPLATE.md](ABOUT_THIS_TEMPLATE.md)  
@@ -51,33 +51,33 @@ See also
 <!--  DELETE THE LINES ABOVE THIS AND WRITE YOUR PROJECT README BELOW -->
 
 ---
-# project_name
+# pyqt5_learn
 
-[![codecov](https://codecov.io/gh/author_name/project_urlname/branch/main/graph/badge.svg?token=project_urlname_token_here)](https://codecov.io/gh/author_name/project_urlname)
-[![CI](https://github.com/author_name/project_urlname/actions/workflows/main.yml/badge.svg)](https://github.com/author_name/project_urlname/actions/workflows/main.yml)
+[![codecov](https://codecov.io/gh/kouhe3/pyqt5-learn/branch/main/graph/badge.svg?token=pyqt5-learn_token_here)](https://codecov.io/gh/kouhe3/pyqt5-learn)
+[![CI](https://github.com/kouhe3/pyqt5-learn/actions/workflows/main.yml/badge.svg)](https://github.com/kouhe3/pyqt5-learn/actions/workflows/main.yml)
 
-project_description
+Awesome pyqt5_learn created by kouhe3
 
 ## Install it from PyPI
 
 ```bash
-pip install project_name
+pip install pyqt5_learn
 ```
 
 ## Usage
 
 ```py
-from project_name import BaseClass
-from project_name import base_function
+from pyqt5_learn import BaseClass
+from pyqt5_learn import base_function
 
 BaseClass().base_method()
 base_function()
 ```
 
 ```bash
-$ python -m project_name
+$ python -m pyqt5_learn
 #or
-$ project_name
+$ pyqt5_learn
 ```
 
 ## Development
